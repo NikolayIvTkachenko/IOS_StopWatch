@@ -94,7 +94,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Configure the cell
         
         cell.textLabel?.text = "Lap \(laps.count-indexPath.row)"
-        cell.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
+        cell.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.8470588235)
         cell.detailTextLabel?.text = laps[indexPath.row]
         cell.textLabel?.textColor = UIColor.red
         
